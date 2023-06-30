@@ -1,0 +1,3 @@
+G:/Algozenith/Rubiks Cube Solver/RubiksCubeSolver/cmake-build-debug/CMakeFiles/RubiksCubeSolver.dir
+G:/Algozenith/Rubiks Cube Solver/RubiksCubeSolver/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/Algozenith/Rubiks Cube Solver/RubiksCubeSolver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
