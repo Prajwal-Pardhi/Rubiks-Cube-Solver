@@ -176,7 +176,7 @@ int main() {
 //
 
 // DFS Solver Testing __________________________________________________________________________________________
-    RubiksCube3dArray cube;
+/*    RubiksCube3dArray cube;
     cube.print();
 //
     vector<RubiksCube::MOVE> shuffle_moves = cube.randomShuffleCube(6);
@@ -184,29 +184,29 @@ int main() {
     cout << "\n";
     cube.print();
 //
-    DFSSolver<RubiksCube3dArray, Hash3d> dfsSolver(cube, 8);
+    DFS_Solver<RubiksCube3dArray, Hash3d> dfsSolver(cube, 8);
     vector<RubiksCube::MOVE> solve_moves = dfsSolver.solve();
 //
     for (auto move: solve_moves) cout << cube.getMove(move) << " ";
     cout << "\n";
     dfsSolver.rubiksCube.print();
-
+*/
 
 //BFS Solver -----------------------------------------------------------------------------------------------------
-//    RubiksCubeBitboard cube;
-//    cube.print();
+    RubiksCube3dArray cube;
+    cube.print();
 //
-//    vector<RubiksCube::MOVE> shuffle_moves = cube.randomShuffleCube(6);
-//    for(auto move: shuffle_moves) cout << cube.getMove(move) << " ";
-//    cout << "\n";
-//    cube.print();
+    vector<RubiksCube::MOVE> shuffle_moves = cube.randomShuffleCube(6);
+    for(auto move: shuffle_moves) cout << cube.getMove(move) << " ";
+    cout << "\n";
+    cube.print();
 //
-//    BFSSolver<RubiksCubeBitboard, HashBitboard> bfsSolver(cube);
-//    vector<RubiksCube::MOVE> solve_moves = bfsSolver.solve();
+    BFS_Solver<RubiksCube3dArray, Hash3d> bfsSolver(cube);
+    vector<RubiksCube::MOVE> solve_moves = bfsSolver.solve();
 //
-//    for(auto move: solve_moves) cout << cube.getMove(move) << " ";
-//    cout << "\n";
-//    bfsSolver.rubiksCube.print();
+    for(auto move: solve_moves) cout << cube.getMove(move) << " ";
+    cout << "\n";
+    bfsSolver.rubiksCube.print();
 
 // IDDFS Solver ----------------------------------------------------------------------------------------------------
 //    RubiksCubeBitboard cube;
