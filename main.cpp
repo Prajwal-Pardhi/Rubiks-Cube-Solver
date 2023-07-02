@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
-//#include "Model/RubiksCube3dArray.cpp"
+#include "Model/RubiksCube3dArray.cpp"
 //#include "Model/RubiksCube1dArray.cpp"
 //#include "Model/RubiksCubeBitboard.cpp"
-//#include "DFS_Solver.h"
-//#include "BFS_Solver.h"
+#include "DFS_Solver.h"
+#include "BFS_Solver.h"
 //#include "Solver/IDDFSSolver.h"
 //#include "Solver/IDAstarSolver.h"
 //#include "PatternDatabases/CornerPatternDatabase.h"
