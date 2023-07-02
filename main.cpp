@@ -2,8 +2,8 @@
 //#include "Model/RubiksCube3dArray.cpp"
 //#include "Model/RubiksCube1dArray.cpp"
 //#include "Model/RubiksCubeBitboard.cpp"
-//#include "Solver/DFSSolver.h"
-//#include "Solver/BFSSolver.h"
+//#include "DFS_Solver.h"
+//#include "BFS_Solver.h"
 //#include "Solver/IDDFSSolver.h"
 //#include "Solver/IDAstarSolver.h"
 //#include "PatternDatabases/CornerPatternDatabase.h"
@@ -176,20 +176,20 @@ int main() {
 //
 
 // DFS Solver Testing __________________________________________________________________________________________
-//    RubiksCube3dArray cube;
-//    cube.print();
+    RubiksCube3dArray cube;
+    cube.print();
 //
-//    vector<RubiksCube::MOVE> shuffle_moves = cube.randomShuffleCube(6);
-//    for (auto move: shuffle_moves) cout << cube.getMove(move) << " ";
-//    cout << "\n";
-//    cube.print();
+    vector<RubiksCube::MOVE> shuffle_moves = cube.randomShuffleCube(6);
+    for (auto move: shuffle_moves) cout << cube.getMove(move) << " ";
+    cout << "\n";
+    cube.print();
 //
-//    DFSSolver<RubiksCube3dArray, Hash3d> dfsSolver(cube, 8);
-//    vector<RubiksCube::MOVE> solve_moves = dfsSolver.solve();
+    DFSSolver<RubiksCube3dArray, Hash3d> dfsSolver(cube, 8);
+    vector<RubiksCube::MOVE> solve_moves = dfsSolver.solve();
 //
-//    for (auto move: solve_moves) cout << cube.getMove(move) << " ";
-//    cout << "\n";
-//    dfsSolver.rubiksCube.print();
+    for (auto move: solve_moves) cout << cube.getMove(move) << " ";
+    cout << "\n";
+    dfsSolver.rubiksCube.print();
 
 
 //BFS Solver -----------------------------------------------------------------------------------------------------
