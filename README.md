@@ -25,11 +25,6 @@ This project has no external dependencies. It is developed using C++ only, utili
 ## Contributions
 Contributions to this project are welcome! If you find any issues or have suggestions for improvements, feel free to create a pull request or open an issue.
 
-## Credits
-The Rubik's Cube solver algorithm is based on existing algorithms and concepts in the field of Rubik's Cube solving.
-
-- Rubik's Cube on Wikipedia: [https://en.wikipedia.org/wiki/Rubik%27s_Cube](https://en.wikipedia.org/wiki/Rubik%27s_Cube)
-
 ## Author
 This project is created by Prajwal Pardhi. You can contact me at prajwalpardhi2003@gmail.com.
 
