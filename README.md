@@ -1,7 +1,7 @@
 # Rubik's Cube Solver
 
 ## Description
-This project is a Rubik's Cube solver implemented in C++ using CLion. The virtual Rubik's Cube is modeled using a 3D array data structure. The main focus of this project is to apply Object-Oriented Programming (OOP) principles in C++.
+This project is a Rubik's Cube solver implemented in C++ using CLion. The virtual Rubik's Cube is modeled using a 3D array data structure. The project is well structured by the implementation of Object-Oriented Programming (OOP) principles in C++.
 
 ## Features
 - Rubik's Cube modeling: The Rubik's Cube is virtually represented using a 3D array data structure to store the cube's state.
